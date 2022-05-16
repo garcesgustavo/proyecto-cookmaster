@@ -1,3 +1,5 @@
+/* font-family: 'Oleo Script Swash Caps', cursive; esta es la fuente */
+/* font-family: 'Oswald', sans-serif; */
 html,
 body {
   margin: 0;
@@ -20,7 +22,7 @@ body {
 #quizz {
   background-color: #d8f9fa;
   width: 30rem;
-  height: 35rem;
+  height: 40rem;
   padding: 2rem;
   margin: 30px 0;
   text-align: center;
@@ -30,19 +32,24 @@ body {
   -moz-box-shadow: 11px 10px 30px -4px rgba(0, 0, 0, 1);
 }
 h1 {
-  color: #f22222;
-  font-size: 3rem;
+  color: #e22222;
+  font-family: "Oleo Script Swash Caps", cursive;
+  font-size: 4rem;
+  font-weight: bold;
   text-align: center;
 }
 #pregunta {
   font-size: 1.7rem;
-  color: #f22222;
+  font-weight: bold;
+  color: #101011;
+  font-family: "Oswald", sans-serif;
 }
 .boton {
-  background-color: #3c473b;
-  color: white;
+  background-color: #98a8b3;
+  color: #0c0909;
   width: 250px;
   font-size: 20px;
+  font-weight: bold;
   border-radius: 0.3rem;
   padding: 10px 10px;
   margin: 10px 40px 10px 0px;
